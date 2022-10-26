@@ -6,6 +6,10 @@
 ** forward declaration
 */
 
+
+/* needed on some platforms windows ... */
+typedef unsigned char uint8_t;
+
 int binary(uint8_t i);
 
 
