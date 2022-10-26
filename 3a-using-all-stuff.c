@@ -18,7 +18,7 @@ int main(int argc, char **argv)
             switch (i)
             {
             case 0:
-                printf("-Hello!");
+                printf("Hello!");
                 break;
             case 1:
                 printf("how ");
@@ -33,16 +33,17 @@ int main(int argc, char **argv)
                 printf("? ");
             }
 		
-            for (int j = 0; j <= 5 || ( !1 ); j++)
+            for (int j = 0; j <= 5; j++)
             {
-                if (j >= i)
-                {
-                    printf("\n");
-                }
-				if ( ! j==1 )
+	
+				if(!1)
 				{
-					printf(":)");
+					printf("This will not print");
 				}
+                else if (j >= i)
+                {
+                    printf("-\n");
+                }
 				else
 				{
 					printf("-");
