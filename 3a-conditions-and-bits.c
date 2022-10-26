@@ -5,6 +5,7 @@
 /*
 ** forward declaration
 */
+typedef unsigned char uint8_t;
 
 int binary(uint8_t i);
 
