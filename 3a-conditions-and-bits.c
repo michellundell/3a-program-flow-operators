@@ -6,7 +6,6 @@
 /*
 ** forward declaration
 */
-
 int binary(uint8_t i);
 
 
